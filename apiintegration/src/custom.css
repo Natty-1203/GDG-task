@@ -1,0 +1,35 @@
+*{
+    color: white;
+}
+.header-top{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(240, 93, 93);
+    position: fixed;
+    top: 0px;
+}
+.cart{
+    color: black;
+    
+}
+.cont{
+    padding: 20px 30px;
+    display: flex;
+    column-gap: 30px;
+}
+.movie-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movie-cont p{
+    color: black;
+}
+.add-but{
+    padding: 15px 22px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: rgb(245, 75, 75);
+}

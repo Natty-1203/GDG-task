@@ -1,0 +1,127 @@
+*{
+    color: black;
+    font-size: 24px;
+}
+.all-cont{ 
+    height: 700px;
+    display: flex;
+    column-gap: 30px;
+    margin: 30px;
+    padding: 25px;
+    background-color: antiquewhite;
+}
+.sideBar{
+    flex: 1;
+    background-color: blue;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+.newTask{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 30px 15px;
+    padding: 9px 0;
+    cursor: pointer;
+    
+}
+.newTask p{
+    margin: 0;
+    color: white;
+}
+.newTask button{
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    
+}
+.trash{
+    color: white;
+}
+.mainContent{
+    padding: 20px;
+    flex: 3;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
+.hero{
+    align-self: center;
+    justify-self: center;
+    font-size: 150px;
+    color: gray;
+    opacity: .8;
+}    
+.header{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: .5;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+}
+.header div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     column-gap: 15px;
+}
+.saving{
+    padding: 8px 26px;
+    border-radius: 25px;
+    font-size: 22px;
+    border-style: none;
+    cursor: pointer;
+}
+.pen-cont{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+.pen{
+    font-size: 20px;
+}
+.content{
+    flex: 3;
+    margin-bottom: 10px;
+    position: relative;
+}
+.reading{
+    display: flex;
+    flex-direction: column;
+}
+.input-cont{
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+.title{
+   height: 20% !important;
+}
+.description, .title{
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+}
+.description::placeholder{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.task-input:focus{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+
+}

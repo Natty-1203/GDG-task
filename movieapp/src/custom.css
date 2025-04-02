@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+nav h1{
+    font-size: 28px;
+}
+.list-but{
+    background-color: rgb(158, 31, 31);
+    color: white;
+    font-size: 23px;
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.list-but:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 23px;
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.movie-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    row-gap: 10px;
+    margin-top: 20px;
+}
+.movie-card{
+    
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    width: 300px;
+}
+.list-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-but, .remove-but{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    border-style: none;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.add-but:active, .remove-but:active {
+    opacity: 0.7;
+    transform: scale(0.95);
+}
+
+footer{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer button{
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    border-style: none;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.listHead{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listHead h1{
+    font-size: 45px;
+}
