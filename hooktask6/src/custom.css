@@ -1,0 +1,23 @@
+*{
+    font-size: 24px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+textarea {
+    width: 450px;
+    height: 180px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+textarea:focus {
+    outline: none;
+}
